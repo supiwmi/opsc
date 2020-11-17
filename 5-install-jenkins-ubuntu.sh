@@ -29,4 +29,4 @@ sudo systemctl enable jenkins
 
 ### Step 4 — Setting Up Jenkins
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
-echo "Navigate to Web Broswer http://your_server_ip_or_domain:8080"
+echo "Navigate to Web Broswer http://xxxxxxx.southeastasia.cloudapp.azure.com:8080"
