@@ -2,7 +2,7 @@ username="ansible"
 password="password"
 
 username="jack"
-password="password"
+password="Password12345!"
 
 username="por"
 password="password"
