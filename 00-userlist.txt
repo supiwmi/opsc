@@ -1,0 +1,14 @@
+username="ansible"
+password="password"
+
+username="jack"
+password="password"
+
+username="por"
+password="password"
+
+username="pao"
+password="password"
+
+username="new"
+password="password"
