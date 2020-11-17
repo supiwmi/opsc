@@ -25,4 +25,4 @@ EOL
 
 ### Step 4 — Setting Up Jenkins
 #sudo cat /var/lib/jenkins/secrets/initialAdminPassword
-#echo "navigate to webbroswer http://your_server_ip_or_domain:8080"
+#echo "Navigate to Web Broswer http://your_server_ip_or_domain:8080"
