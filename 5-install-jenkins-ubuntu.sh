@@ -3,7 +3,7 @@
 sudo apt update
 ### Step 1 — Installing Java (prerequisite)
 
-sudo apt install openjdk-8-jdk openjdk-8-jre
+sudo apt install -y openjdk-8-jdk openjdk-8-jre
 
 sudo cat >> /etc/environment <<EOL
 JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
@@ -17,7 +17,7 @@ java -version
 wget -q -O - http://pkg.jenkins-ci.org/debian/jenkins-ci.org.key | sudo apt-key add -
 sudo sh -c 'echo deb http://pkg.jenkins-ci.org/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
 
-sudo apt install jenkins
+sudo apt install -y jenkins
 
 ### Step 3 — Starting Jenkins
 
