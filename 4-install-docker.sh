@@ -20,20 +20,11 @@ sudo apt install -y docker-ce
 
 sudo systemctl enable docker
 
-# Step 2 — Executing the Docker Command Without Sudo (Optional)
-
-sudo usermod -aG docker ${USER}
-su - ${USER}
-id -nG
-
-# sudo usermod -aG docker username
-
-
-# Step 3 — Using the Docker Command
+# Step 2 — Using the Docker Command
 ##### docker [option] [command] [arguments]
 
 docker
 docker info
 
-# Step 4 — Working with Docker Images
+# Step 3 — Working with Docker Images
 docker run hello-world
