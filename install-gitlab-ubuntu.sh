@@ -11,7 +11,7 @@ sudo useradd -s /bin/bash -m -G sudo jenkins
 # This 3 commands will update the software on and install some tools e.g. curl, openssh-server and etc.
 sudo apt update
 sudo apt upgrade -y
-sudo apt install curl openssh-server ca-certificates postfix -y
+sudo apt install curl openssh-server ca-certificates postfix docker unzip git -y
 
 # This commaind will import gitlab repository to this server
 curl -sS https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash
