@@ -1,5 +1,9 @@
 #!/bin/bash
 
+####################################################################################################################
+################# change to root user before runing this shell script by using command " sudo su - "   #############
+####################################################################################################################
+
 # This command will create jenkins user, specify the bash shell, and assing sudo group 
 sudo useradd -s /bin/bash -m -G sudo jenkins
 
@@ -20,9 +24,9 @@ sudo apt install gitlab-ce -y
 openssl genrsa -out key.pem 4096
 openssl req -new -sha256 -key key.pem -out csr.csr
 openssl req -x509 -sha256 -days 365 -key key.pem -in csr.csr -out certificate.pem
-mkdir /etc/gitlab/ssl
-chmod 700 /etc/gitlab/ssl
-cp *.pem /etc/gitlab/ssl 
+sudo mkdir /etc/gitlab/ssl
+sudo chmod 700 /etc/gitlab/ssl
+sudo cp *.pem /etc/gitlab/ssl 
 
 # This command will backup the original configuration file before changing
 sudo cp /etc/gitlab/gitlab.rb /etc/gitlab/gitlab.rb.original
