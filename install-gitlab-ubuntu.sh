@@ -34,11 +34,12 @@ sudo cp /etc/gitlab/gitlab.rb /etc/gitlab/gitlab.rb.original
 
 # This command will change the 'external_url' value with your own domain name.
 # see http://netjunky.net/sed-replace-path-with-slash-separators/
-sudo sed -i "s|external_url 'http://gitlab.example.com' *|external_url 'https://gitlabdocker.southeastasia.cloudapp.azure.com'|" /etc/gitlab/gitlab.rb
+#sudo sed -i "s|external_url 'http://gitlab.example.com' *|external_url 'https://gitlabdocker.southeastasia.cloudapp.azure.com'|" /etc/gitlab/gitlab.rb
+sudo sed -i "s|external_url 'http://gitlab.example.com' *|external_url 'http://192.168.x.y'|" /etc/gitlab/gitlab.rb
 
 
-echo -e "nginx['ssl_certificate'] = "/etc/gitlab/ssl/certificate.pem" " | sudo tee -a /etc/gitlab/gitlab.rb
-echo -e "nginx['ssl_certificate_key'] = "/etc/gitlab/ssl/key.pem" " | sudo tee -a /etc/gitlab/gitlab.rb
+#echo -e "nginx['ssl_certificate'] = "/etc/gitlab/ssl/certificate.pem" " | sudo tee -a /etc/gitlab/gitlab.rb
+#echo -e "nginx['ssl_certificate_key'] = "/etc/gitlab/ssl/key.pem" " | sudo tee -a /etc/gitlab/gitlab.rb
 
 
 # The command set below will reconigure the gitlab and start gitlab server  
