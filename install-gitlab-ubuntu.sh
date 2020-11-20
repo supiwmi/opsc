@@ -12,6 +12,7 @@ sudo apt install curl openssh-server ca-certificates postfix -y
 # This commaind will import gitlab repository to this server
 curl -sS https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash
 
+
 # Now we can install gitlab software on this server
 sudo apt install gitlab-ce -y
 
@@ -29,7 +30,6 @@ sudo cp /etc/gitlab/gitlab.rb /etc/gitlab/gitlab.rb.original
 
 # This command will change the 'external_url' value with your own domain name.
 # see http://netjunky.net/sed-replace-path-with-slash-separators/
-sudo sed -i 's/external_url 'http://gitlab.example.com'/external_url 'https://gitlabdocker.southeastasia.cloudapp.azure.com/' /etc/gitlab/gitlab.rb
 sudo sed -i "s|external_url 'http://gitlab.example.com' *|external_url 'https://gitlabdocker.southeastasia.cloudapp.azure.com'|" /etc/gitlab/gitlab.rb
 
 
