@@ -27,3 +27,5 @@ git remote add origin https://github.com/your_username/your_new_repository_name.
 git branch -M master
 
 git push -u origin master
+
+https://docs.github.com/en/free-pro-team@latest/github/importing-your-projects-to-github/adding-an-existing-project-to-github-using-the-command-line
