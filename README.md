@@ -28,4 +28,18 @@ git branch -M master
 
 git push -u origin master
 
+เป็นการทำให้มีการ sync กันระหว่าง remote และ local
+
+git push -u --set-upstream origin master
+
+ลองแก้ไขไฟล์ README.md
+
+แล้วสั่ง
+git add .
+git commit -m "second"
+
+เราก็สามารถสั่งแค่ push ก็พอแล้ว
+git push
+
+ดูเพิ่มเติม
 https://docs.github.com/en/free-pro-team@latest/github/importing-your-projects-to-github/adding-an-existing-project-to-github-using-the-command-line
