@@ -18,3 +18,12 @@ Run jenkins container in detached mode
 Navigate to your Web Browser 
 
 http://your_server_ip_or_domain:8888
+
+
+# PUSH EXISTING REPO FROM THE COMMAND LINE
+
+git remote add origin https://github.com/your_username/your_new_repository_name.git
+
+git branch -M master
+
+git push -u origin master
