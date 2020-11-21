@@ -19,7 +19,7 @@ Navigate to your Web Browser
 
 http://your_server_ip_or_domain:8888
 
-Git Tips and Trick
+# Git Tips and Trick
 On StackOverflow, the following command was suggested to help developers find the location of the Git config files: sudo git -c core.editor=ls\ -al config --system --edit
 
 sudo git -c core.editor=ls\ -al config --global --edit
