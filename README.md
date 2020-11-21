@@ -1,4 +1,4 @@
-# opsc - How to run jenkins with container
+# opsc - How to run jenkins with container gitty
 # https://tpit-band-live.web.app/
 
 # *Step 1:*
