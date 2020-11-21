@@ -20,13 +20,14 @@ Navigate to your Web Browser
 http://your_server_ip_or_domain:8888
 
 
-# PUSH EXISTING REPO FROM THE COMMAND LINE
+# PUSH local  REPO to GitHub
+ให้สร้าง repo ใหม่โดยไม่ต้องสร้าง readme มันจะใด้ตำสั่งแบบนี้มา
 
-git remote add origin https://github.com/your_username/your_new_repository_name.git
-
-git branch -M master
-
-git push -u origin master
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin  git@github.com:supiwmi/test.git
+git push -u --set-upstream origin master
 
 เป็นการทำให้มีการ sync กันระหว่าง remote และ local
 
