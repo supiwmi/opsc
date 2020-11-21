@@ -19,6 +19,12 @@ Navigate to your Web Browser
 
 http://your_server_ip_or_domain:8888
 
+Git Tips and Trick
+On StackOverflow, the following command was suggested to help developers find the location of the Git config files: sudo git -c core.editor=ls\ -al config --system --edit
+
+sudo git -c core.editor=ls\ -al config --global --edit
+
+git config --global --list --show-origin
 
 # PUSH local  REPO to GitHub
 ให้สร้าง repo ใหม่โดยไม่ต้องสร้าง readme มันจะใด้ตำสั่งแบบนี้มา
