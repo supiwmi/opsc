@@ -1,8 +1,8 @@
-# OPS-C - <mark>โปรดทราบ มีให้ใหม่ ชื่อ 6-install-gitlab-ubuntu.sh</mark> 
+# OPS-C - โปรดทราบ มีให้ใหม่ ชื่อ 6-install-gitlab-ubuntu.sh
 
 # LAB 1: How to install GitLab on Ubuntu server
 
-เราสามารถเอา script นี้ไปใช้ในการติดตั้ง GitLab บน VirtualBox ที่เป็น Ubuntu ได้แล้ว (ผ่านการทดสอบ) จะใช้เวลาติดตั้งหลาย 10-20 นาที่เพราะต้องไป download code 800MB ลงมา
+เราสามารถเอา script (*6-install-gitlab-ubuntu.sh*) นี้ไปใช้ในการติดตั้ง GitLab บน VirtualBox ที่เป็น Ubuntu ได้แล้ว (ผ่านการทดสอบ) จะใช้เวลาติดตั้งหลาย 10-20 นาที่เพราะต้องไป download code 800MB ลงมา
 
 ก่อนที่จะรันคำสั่ง "bash install-gitlab-ubuntu.sh"  ให้ IP แก้บรรทัดที่ 38 ใหัตรงกับเครื่อง unbutu ที่จะทำเป็น GitLab ก่อน (ตรวจสอบด้วย "ip a" เพื่อให้แน่ใจ)
 
