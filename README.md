@@ -31,24 +31,31 @@ git config --global --list --show-origin
 
 ![alt text](2020-11-22_08-59-99.png)
 
+ให้เราเอาคำสั่งทั้งหมดนี้ไปรันที่ vscode ที่เครื่อง laptop เรา ก่อนรันอาจจะสร้างเป็น new folder ใน Windows ที่ dirve C หรือ D ก็ได้ เสร็จแล้วก็ drag and drop ชื่อนี้ไปที่ vscode
+เพื่อที่ว่ามันจะได้รู้จักับ folder ที่เราสร้างนี้
+
+```
 git init
 git add README.md
 git commit -m "first commit"
 git remote add origin  git@github.com:supiwmi/test.git
 git push -u --set-upstream origin master
+```
 
-เป็นการทำให้มีการ sync กันระหว่าง remote และ local
+คำสั่งบรรทัดล่างเป็นการทำให้มีการ sync กันระหว่าง remote และ local
 
 git push -u --set-upstream origin master
 
 ลองแก้ไขไฟล์ README.md
 
 แล้วสั่ง
+```
 git add .
 git commit -m "second"
-
-เราก็สามารถสั่งแค่ push ก็พอแล้ว
 git push
+```
+จะสั่งเห็นเราก็สามารถสั่งแค่ push ก็พอแล้ว และเมื่อกลับเข้าไปดูที่ GitHub จะเห็นว่าเราสามารถ push local repo เราไปที่ GitHub ได้แล้ว
+
 
 ดูเพิ่มเติม
 https://docs.github.com/en/free-pro-team@latest/github/importing-your-projects-to-github/adding-an-existing-project-to-github-using-the-command-line
