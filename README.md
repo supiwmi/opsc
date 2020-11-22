@@ -66,8 +66,11 @@ git push
 
 1. เริ่มด้วยการสร้าง New Folder ในเครื่อง  Windows เรา ขี้นมา เช่น สร้าง new folder บน desktop ชื่อ Test2
 
+![alt text](2020-11-22_12-27-55.png)
 
 2. เปิดโปรแกรม VSCode ขึ้นมาแล้ว ลาก ชื่อ folder "Test2" ที่อยู่บน Windows Destop เรามาวางในหน้าจอ VSCode 
+
+![alt text](2020-11-22_12-31-02.png)
 
 3. ให้เปิด Terminal ที่ VSCode เพื่อจะได้รันคำสั่งในการต่างๆเพื่อทดสอบ
 
