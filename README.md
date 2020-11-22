@@ -90,11 +90,12 @@ git push -u origin master
 ![alt text](2020-11-22_12-21-33.png)
 
 **Git Tips and Trick**
-On StackOverflow, the following command was suggested to help developers find the location of the Git config files: sudo git -c core.editor=ls\ -al config --system --edit
-
+On StackOverflow, the following command was suggested to help developers find the location of the Git config files: 
+```
+sudo git -c core.editor=ls\ -al config --system --edit
 sudo git -c core.editor=ls\ -al config --global --edit
-
 git config --global --list --show-origin
+```
 
 **แนะนำให้อ่านเพิ่มเติม**
 https://docs.github.com/en/free-pro-team@latest/github/importing-your-projects-to-github/adding-an-existing-project-to-github-using-the-command-line
