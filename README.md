@@ -90,6 +90,7 @@ git push -u origin master
 ![alt text](2020-11-22_12-21-33.png)
 
 **Git Tips and Trick**
+
 On StackOverflow, the following command was suggested to help developers find the location of the Git config files: 
 ```
 sudo git -c core.editor=ls\ -al config --system --edit
