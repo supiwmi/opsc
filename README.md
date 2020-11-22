@@ -1,5 +1,12 @@
-# OPS-C 
-https://tpit-band-live.web.app/
+# OPS-C มี shell script ใน 6-install-gitlab-ubuntu.sh (ก่อนรัน แก้ IP ใน script ให้เป็น IP ของ Ubuntu ก่อน)
+
+เราสามารถเอา script นี้ไปใช้ในการติดตั้ง GitLab บน VirtualBox ที่เป็น Ubuntu ได้แล้ว (ผ่านการทดสอบ) จะใช้เวลาติดตั้งหลาย 10-20 นาที่เพราะต้องไป download code 800MB ลงมา
+
+หลังจากที่มันติดตั้งเสร็จ รอสัก 1-3 นาที่เพื่อให้โปรแกรมมัน start complete หลังจากนั้นก็ให้เราไปเปิดใช้งานผ่าน Browser
+
+โดยการพิมพ์ URL ของ IP เครื่อง Ubuntu ที่เราจะสร้างเป็น GitLab server 
+
+http://192.168.x.y 
 
 # LAB 1: How to run jenkins with container
 
