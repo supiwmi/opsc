@@ -103,6 +103,21 @@ git push -u origin master
 
 ![alt text](img/2020-11-22_12-21-33.png)
 
+# LAB 6:ถ้าต้องการ pull จากที่ GitHub (จะเป็นของใครก็ได้ เช่น git pull git@github.com:supiwmi/opsc.git)  ไปที่ GitLab (ถ้ามี Gitlab VirtualBox ก็ได้)
+
+ขั้นตอนจะเหมือนกันกับ Lab 5 และ 6
+
+**Steps:**
+```
+สร้าง new folder เช่น temp
+git init
+git pull git@github.com:supiwmi/opsc.git
+git remote add origin git@192.168.56.8:root/test2.git
+git push -u origin master
+```
+เราก็จะสามารถเอา code จากที่อื่น(ที่คนอื่น share เป็น public) มาใส่ไว้ใน Private Git (เช่น GitLab on VirtualBox) ของเราได้แล้ว
+
+
 **Git Tips and Trick**
 
 On StackOverflow, the following command was suggested to help developers find the location of the Git config files: 
