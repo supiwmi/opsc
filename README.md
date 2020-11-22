@@ -39,9 +39,9 @@ http://your_server_ip_or_domain:8888
 # LAB 3: ถ้าต้องการ push จาก Local Repo (เครื่อง Windows เรา) to GitHub (GitHub ที่เราได้ Register ไว้)
 ให้สร้าง repo ใหม่โดยไม่ต้องสร้าง readme มันจะใด้ตำสั่งแบบนี้มา
 
-![alt text](2020-11-22_08-59-99.png)
+![alt text](img/2020-11-22_08-59-99.png)
 
-![alt text](2020-11-22_09-00-90.png)
+![alt text](img/2020-11-22_09-00-90.png)
 
 ให้เราเอาคำสั่งทั้งหมดนี้ไปรันที่ vscode ที่เครื่อง laptop เรา ก่อนรันอาจจะสร้างเป็น new folder ใน Windows ที่ dirve C หรือ D ก็ได้ เสร็จแล้วก็ drag and drop ชื่อนี้ไปที่ vscode
 เพื่อที่ว่ามันจะได้รู้จักับ folder ที่เราสร้างนี้
@@ -77,12 +77,12 @@ git push
 **Step 1:**
 เริ่มด้วยการสร้าง New Folder ในเครื่อง  Windows เรา ขี้นมา เช่น สร้าง new folder บน desktop ชื่อ Test2
 
-![alt text](2020-11-22_12-27-55.png)
+![alt text](img/2020-11-22_12-27-55.png)
 
 **Step 2:**
 เปิดโปรแกรม VSCode ขึ้นมาแล้ว ลาก ชื่อ folder "Test2" ที่อยู่บน Windows Destop เรามาวางในหน้าจอ VSCode 
 
-![alt text](2020-11-22_12-31-02.png)
+![alt text](img/2020-11-22_12-31-02.png)
 
 **Step 3:** 
 ให้เปิด Terminal ที่ VSCode เพื่อจะได้รันคำสั่งในการต่างๆเพื่อทดสอบ
@@ -101,7 +101,7 @@ git push -u origin master
 **Step 4:**
 เสร็จแล้วไปดูที่ GitLab ที่อยู่ใน VirtualBox เราว่ามันได้แบบนี้หรือไม่
 
-![alt text](2020-11-22_12-21-33.png)
+![alt text](img/2020-11-22_12-21-33.png)
 
 **Git Tips and Trick**
 
