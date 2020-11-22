@@ -52,4 +52,3 @@ gitlab-ctl start
 
 # The command below will check gitlab software
 sudo apt-cache policy gitlab-ce | grep Installed
-
