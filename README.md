@@ -1,4 +1,6 @@
-# OPS-C มี shell script ใน 6-install-gitlab-ubuntu.sh (ก่อนรัน แก้ IP ใน script ให้เป็น IP ของ Ubuntu ก่อน)
+# OPS-C - โปรดทราบ มีให้ใหม่ ชื่อ 6-install-gitlab-ubuntu.sh 
+
+# LAB 1: How to install GitLab on Ubuntu server
 
 เราสามารถเอา script นี้ไปใช้ในการติดตั้ง GitLab บน VirtualBox ที่เป็น Ubuntu ได้แล้ว (ผ่านการทดสอบ) จะใช้เวลาติดตั้งหลาย 10-20 นาที่เพราะต้องไป download code 800MB ลงมา
 
@@ -8,7 +10,9 @@
 
 http://192.168.x.y 
 
-# LAB 1: How to run jenkins with container
+![alt text](2020-11-22_13-04-44.png)
+
+# LAB 2: How to run jenkins with container
 
 **Step 1:**
 
@@ -29,7 +33,7 @@ Navigate to your Web Browser
 http://your_server_ip_or_domain:8888
 
 
-# LAB 2: ถ้าต้องการ push จาก Local Repo (เครื่อง Windows เรา) to GitHub (GitHub ที่เราได้ Register ไว้)
+# LAB 3: ถ้าต้องการ push จาก Local Repo (เครื่อง Windows เรา) to GitHub (GitHub ที่เราได้ Register ไว้)
 ให้สร้าง repo ใหม่โดยไม่ต้องสร้าง readme มันจะใด้ตำสั่งแบบนี้มา
 
 ![alt text](2020-11-22_08-59-99.png)
@@ -63,7 +67,7 @@ git push
 ```
 จะสั่งเห็นเราก็สามารถสั่งแค่ push ก็พอแล้ว และเมื่อกลับเข้าไปดูที่ GitHub จะเห็นว่าเราสามารถ push local repo เราไปที่ GitHub ได้แล้ว
 
-# LAB 3:ถ้าต้องการ push จาก Local Repo (เครื่อง Laptop เรา)  ไปที่ GitLab (ถ้ามี Gitlab VirtualBox ก็ได้)
+# LAB 4:ถ้าต้องการ push จาก Local Repo (เครื่อง Laptop เรา)  ไปที่ GitLab (ถ้ามี Gitlab VirtualBox ก็ได้)
 
 ขั้นตอนจะเหมือนกันแต่จะง่ายกว่าเพราะว่าเราเป็น เจ้าของ GitLab server แต่ ถ้าเป็น GitHub เราไปใช้ของฟรีที่ไม่ใช่ของเรา
 
