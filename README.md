@@ -73,7 +73,7 @@ git push
 **Step 3:** 
 ให้เปิด Terminal ที่ VSCode เพื่อจะได้รันคำสั่งในการต่างๆเพื่อทดสอบ
 
-Note: อย่าลืมเปลี่ยนคำgit remote add origin git@192.168.x.y:root/test2.git
+*Note: อย่าลืมเปลี่ยนคำgit remote add origin git@192.168.x.y:root/test2.git*
 
 ```
 echo "# Test" >> README.md
