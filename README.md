@@ -31,6 +31,8 @@ git config --global --list --show-origin
 
 ![alt text](2020-11-22_08-59-99.png)
 
+![alt text](2020-11-22_08-59-90.png)
+
 ให้เราเอาคำสั่งทั้งหมดนี้ไปรันที่ vscode ที่เครื่อง laptop เรา ก่อนรันอาจจะสร้างเป็น new folder ใน Windows ที่ dirve C หรือ D ก็ได้ เสร็จแล้วก็ drag and drop ชื่อนี้ไปที่ vscode
 เพื่อที่ว่ามันจะได้รู้จักับ folder ที่เราสร้างนี้
 
