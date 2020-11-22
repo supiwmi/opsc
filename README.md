@@ -73,7 +73,7 @@ git push
 **Step 3:** 
 ให้เปิด Terminal ที่ VSCode เพื่อจะได้รันคำสั่งในการต่างๆเพื่อทดสอบ
 
-*Note: อย่าลืมเปลี่ยนคำgit remote add origin git@192.168.x.y:root/test2.git*
+*Note: อย่าลืมเปลี่ยนคำ git remote add origin git@192.168.x.y:root/test2.git ต้องเป็น IP ของ GitLab VirtualBox เราเท่านั้น*
 
 ```
 echo "# Test" >> README.md
