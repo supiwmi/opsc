@@ -26,7 +26,7 @@ sudo git -c core.editor=ls\ -al config --global --edit
 
 git config --global --list --show-origin
 
-# PUSH local  REPO to GitHub
+# PUSH Local REPO to GitHub
 ให้สร้าง repo ใหม่โดยไม่ต้องสร้าง readme มันจะใด้ตำสั่งแบบนี้มา
 
 ![alt text](2020-11-22_08-59-99.png)
