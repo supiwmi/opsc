@@ -29,7 +29,7 @@ git config --global --list --show-origin
 # PUSH local  REPO to GitHub
 ให้สร้าง repo ใหม่โดยไม่ต้องสร้าง readme มันจะใด้ตำสั่งแบบนี้มา
 
-![alt text](opsc/2020-11-22_08-59-04.png)
+![alt text](2020-11-22_08-59-04.png)
 
 git init
 git add README.md
