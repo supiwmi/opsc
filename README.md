@@ -26,7 +26,7 @@ sudo git -c core.editor=ls\ -al config --global --edit
 
 git config --global --list --show-origin
 
-# PUSH Local REPO to GitHub
+# ถ้าต้องการ push จาก Local Repo (เครื่อง Windows เรา) to GitHub (GitHub ที่เราได้ Register ไว้)
 ให้สร้าง repo ใหม่โดยไม่ต้องสร้าง readme มันจะใด้ตำสั่งแบบนี้มา
 
 ![alt text](2020-11-22_08-59-99.png)
