@@ -39,6 +39,7 @@ git config --global --list --show-origin
 # ทำทีละคำสั่ง บรรทัดที่ 4 ต้องเป็นชื่อ repo เราเอง
 ```
 git init
+echo "# Test" >> README.md
 git add README.md
 git commit -m "first commit"
 git remote add origin  git@github.com:supiwmi/test.git
