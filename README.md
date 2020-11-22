@@ -38,7 +38,7 @@ git config --global --list --show-origin
 ให้เราเอาคำสั่งทั้งหมดนี้ไปรันที่ vscode ที่เครื่อง laptop เรา ก่อนรันอาจจะสร้างเป็น new folder ใน Windows ที่ dirve C หรือ D ก็ได้ เสร็จแล้วก็ drag and drop ชื่อนี้ไปที่ vscode
 เพื่อที่ว่ามันจะได้รู้จักับ folder ที่เราสร้างนี้
 
-# ทำทีละคำสั่ง บรรทัดที่ 5 ต้องเป็นชื่อ repo เราเอง
+**ทำทีละคำสั่ง บรรทัดที่ 5 ต้องเป็นชื่อ repo เราเอง**
 ```
 echo "# Test" >> README.md
 git init
@@ -66,15 +66,18 @@ git push
 
 ขั้นตอนจะเหมือนกันแต่จะง่ายกว่าเพราะว่าเราเป็น เจ้าของ GitLab server แต่ ถ้าเป็น GitHub เราไปใช้ของฟรีที่ไม่ใช่ของเรา
 
-1. เริ่มด้วยการสร้าง New Folder ในเครื่อง  Windows เรา ขี้นมา เช่น สร้าง new folder บน desktop ชื่อ Test2
+**Step 1:**
+เริ่มด้วยการสร้าง New Folder ในเครื่อง  Windows เรา ขี้นมา เช่น สร้าง new folder บน desktop ชื่อ Test2
 
 ![alt text](2020-11-22_12-27-55.png)
 
-2. เปิดโปรแกรม VSCode ขึ้นมาแล้ว ลาก ชื่อ folder "Test2" ที่อยู่บน Windows Destop เรามาวางในหน้าจอ VSCode 
+**Step 2:**
+เปิดโปรแกรม VSCode ขึ้นมาแล้ว ลาก ชื่อ folder "Test2" ที่อยู่บน Windows Destop เรามาวางในหน้าจอ VSCode 
 
 ![alt text](2020-11-22_12-31-02.png)
 
-3. ให้เปิด Terminal ที่ VSCode เพื่อจะได้รันคำสั่งในการต่างๆเพื่อทดสอบ
+**Step 3:** 
+ให้เปิด Terminal ที่ VSCode เพื่อจะได้รันคำสั่งในการต่างๆเพื่อทดสอบ
 
 Note: อย่าลืมเปลี่ยนคำgit remote add origin git@192.168.x.y:root/test2.git
 
@@ -87,11 +90,11 @@ git remote add origin git@192.168.56.8:root/test2.git
 git push -u origin master
 ```
 
+**Step 4:**
 เสร็จแล้วไปดูที่ GitLab ที่อยู่ใน VirtualBox เราว่ามันได้แบบนี้หรือไม่
 
 ![alt text](2020-11-22_12-21-33.png)
 
 
-
-ดูเพิ่มเติม
+**แนะนำให้อ่านเพิ่มเติม**
 https://docs.github.com/en/free-pro-team@latest/github/importing-your-projects-to-github/adding-an-existing-project-to-github-using-the-command-line
