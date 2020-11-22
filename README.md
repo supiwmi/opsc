@@ -36,7 +36,7 @@ git config --global --list --show-origin
 ให้เราเอาคำสั่งทั้งหมดนี้ไปรันที่ vscode ที่เครื่อง laptop เรา ก่อนรันอาจจะสร้างเป็น new folder ใน Windows ที่ dirve C หรือ D ก็ได้ เสร็จแล้วก็ drag and drop ชื่อนี้ไปที่ vscode
 เพื่อที่ว่ามันจะได้รู้จักับ folder ที่เราสร้างนี้
 
-# ทำทีละคำสั่ง (ก่อนทำให้ copy code ที่ GitHub Repo ของเราเอง ห้ามใช้ git@github.com:supiwmi/test.git 
+# ทำทีละคำสั่ง บรรทัดที่ 4 ต้องเป็นชื่อ repo เราเอง
 ```
 git init
 git add README.md
