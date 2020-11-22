@@ -116,6 +116,7 @@ git remote add origin git@192.168.56.8:root/test2.git
 git push -u origin master
 ```
 เราก็จะสามารถเอา code จากที่อื่น(ที่คนอื่น share เป็น public) มาใส่ไว้ใน Private Git (เช่น GitLab on VirtualBox) ของเราได้แล้ว
+# -------------------------- End --------------------------
 
 # -------- ลองเอาไปช่วยในการทำงานดูนะเพื่อมีประโยชน์ ---------
 
