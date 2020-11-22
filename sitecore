@@ -1,4 +1,6 @@
 #!/bin/bash
+
+# สำหรับ Sunhanut เพื่อสร้าง Azure VMScale Set เพื่อทำ PoC for SiteCore Project 
 sleep 20s
 apt-get update
 apt-get install stress -y
