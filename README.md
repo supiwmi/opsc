@@ -1,8 +1,12 @@
-# OPS-C - โปรดทราบ มีให้ใหม่ ชื่อ 6-install-gitlab-ubuntu.sh 
+# OPS-C - <mark>โปรดทราบ มีให้ใหม่ ชื่อ 6-install-gitlab-ubuntu.sh</mark> 
 
 # LAB 1: How to install GitLab on Ubuntu server
 
 เราสามารถเอา script นี้ไปใช้ในการติดตั้ง GitLab บน VirtualBox ที่เป็น Ubuntu ได้แล้ว (ผ่านการทดสอบ) จะใช้เวลาติดตั้งหลาย 10-20 นาที่เพราะต้องไป download code 800MB ลงมา
+
+ก่อนที่จะรันคำสั่ง "bash install-gitlab-ubuntu.sh"  ให้ IP แก้บรรทัดที่ 38 ใหัตรงกับเครื่อง unbutu ที่จะทำเป็น GitLab ก่อน (ตรวจสอบด้วย "ip a" เพื่อให้แน่ใจ)
+
+![alt text](2020-11-22_13-04-44.png)
 
 หลังจากที่มันติดตั้งเสร็จ รอสัก 1-3 นาที่เพื่อให้โปรแกรมมัน start complete หลังจากนั้นก็ให้เราไปเปิดใช้งานผ่าน Browser
 
@@ -10,7 +14,6 @@
 
 http://192.168.x.y 
 
-![alt text](2020-11-22_13-04-44.png)
 
 # LAB 2: How to run jenkins with container
 
