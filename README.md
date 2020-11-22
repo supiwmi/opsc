@@ -117,7 +117,7 @@ git push -u origin master
 ```
 เราก็จะสามารถเอา code จากที่อื่น(ที่คนอื่น share เป็น public) มาใส่ไว้ใน Private Git (เช่น GitLab on VirtualBox) ของเราได้แล้ว
 
-
+# ---------------- แนะนำให้ไปลองฝึกฝนและเอาไปใช้งานจริง ------------------
 **Git Tips and Trick**
 
 On StackOverflow, the following command was suggested to help developers find the location of the Git config files: 
