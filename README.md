@@ -1,19 +1,21 @@
-# opsc - How to run jenkins with container
-# https://tpit-band-live.web.app/
+# OPS-C 
+https://tpit-band-live.web.app/
 
-# Step 1:
+# LAB 1: How to run jenkins with container
+
+**Step 1:**
 
 Create a new volume on docker host to keep jenkins configurations
 
 > mkdir ~/myJenkinsVolume
 
-# Step 2:
+**Step 2:**
 
 Run jenkins container in detached mode
 
 > docker run -d -p 8888:8080 -p 50000:50000 --restart=always --name devopsjenkins  -v ~/myJenkinsVolume:/var/jenkins_home -t -u root jenkins
 
-# Step 3:
+**Step 3:**
 
 Navigate to your Web Browser 
 
@@ -26,7 +28,7 @@ sudo git -c core.editor=ls\ -al config --global --edit
 
 git config --global --list --show-origin
 
-# ถ้าต้องการ push จาก Local Repo (เครื่อง Windows เรา) to GitHub (GitHub ที่เราได้ Register ไว้)
+# LAB 2: ถ้าต้องการ push จาก Local Repo (เครื่อง Windows เรา) to GitHub (GitHub ที่เราได้ Register ไว้)
 ให้สร้าง repo ใหม่โดยไม่ต้องสร้าง readme มันจะใด้ตำสั่งแบบนี้มา
 
 ![alt text](2020-11-22_08-59-99.png)
@@ -60,7 +62,7 @@ git push
 ```
 จะสั่งเห็นเราก็สามารถสั่งแค่ push ก็พอแล้ว และเมื่อกลับเข้าไปดูที่ GitHub จะเห็นว่าเราสามารถ push local repo เราไปที่ GitHub ได้แล้ว
 
-# ถ้าต้องการ push จาก Local Repo (เครื่อง Laptop เรา)  ไปที่ GitLab (ถ้ามี Gitlab VirtualBox ก็ได้)
+# LAB 3:ถ้าต้องการ push จาก Local Repo (เครื่อง Laptop เรา)  ไปที่ GitLab (ถ้ามี Gitlab VirtualBox ก็ได้)
 
 ขั้นตอนจะเหมือนกันแต่จะง่ายกว่าเพราะว่าเราเป็น เจ้าของ GitLab server แต่ ถ้าเป็น GitHub เราไปใช้ของฟรีที่ไม่ใช่ของเรา
 
