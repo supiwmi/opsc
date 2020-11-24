@@ -1,4 +1,8 @@
 # OPS-C - โปรดทราบ มีให้ใหม่ ชื่อ 6-install-gitlab-ubuntu.sh
+Jack's GitHub URL https://github.com/
+Por's GitHub URL https://github.com/ 
+Pao's GitHub URL https://github.com/ 
+New's GitHub URL https://github.com/ 
 
 # LAB 1: How to install GitLab on Ubuntu server
 
