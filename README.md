@@ -8,7 +8,7 @@ Pao's GitHub URL https://github.com/
 
 New's GitHub URL https://github.com/ 
 
-suparuek Public Key$ cat /home/suparuek/.ssh/id_rsa.pub 
+**suparuek Public Key$ cat /home/suparuek/.ssh/id_rsa.pub** 
 ```
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDfjfBMxkkQEmKa7bzO1FqfvnMdVgP4kaRoTY9Ywmi3W4jMF2H6RCz4HDs5rO91FeMguERKSjARBCsdYPmOV3XUwbiw9sgtptys5rgYLyBulkEZ566/KZUXQdMYHvAHCPnKhG3TTr+zSXLnyMi2eLmzklzDb13fEyLRHcPCSRlOEHeVPTbObNMJN7QqR5LkQCy/D9MmoAxi3+6gI8iuiLtn/NZ4vEV2UtdQ8Uwz8rBb9ZUzOaMf7N+C4tdgLuXf9VGtLr6iHrL4F+Ppl6S8Z+QLnsxjlL3c4rnN/fGdaHe4B3UmVEy3nDADe6Dt4C0JfZGtpa+6hfGoPkE5/r1rnwPN suparuek@TPIT-5CG9026K8S
 ```
