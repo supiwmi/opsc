@@ -1,12 +1,12 @@
 # OPS-C - โปรดทราบ มีให้ใหม่ ชื่อ 6-install-gitlab-ubuntu.sh
 
-# Jack's GitHub URL https://github.com/
+# Jack's GitHub URL https://github.com/jacksika
 
-# Por's GitHub URL https://github.com/ 
+# Por's GitHub URL https://github.com/porporpor1988 
 
-# Pao's GitHub URL https://github.com/ 
+# Pao's GitHub URL https://github.com/chakkritp
 
-# New's GitHub URL https://github.com/ 
+# New's GitHub URL https://github.com/newkiki 
 
 # suparuek Public Key$ cat /home/suparuek/.ssh/id_rsa.pub** 
 ```
