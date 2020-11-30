@@ -65,8 +65,9 @@ echo "# Test" >> README.md
 git init
 git add README.md
 git commit -m "first commit"
+git branch -M Main
 git remote add origin  git@github.com:supiwmi/test.git
-git push -u --set-upstream origin master
+git push -u origin main
 ```
 
 คำสั่งบรรทัดล่างเป็นการทำให้มีการ sync กันระหว่าง remote และ local
