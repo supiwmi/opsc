@@ -1,12 +1,8 @@
-# OPS-C - โปรดทราบ มีให้ใหม่ ชื่อ 6-install-gitlab-ubuntu.sh
-
-# Jack's GitHub URL https://github.com/jacksika
-
-# Por's GitHub URL https://github.com/porporpor1988 
-
-# Pao's GitHub URL https://github.com/chakkritp
-
-# New's GitHub URL https://github.com/newkiki 
+Setup
+The folder locations will vary depending on your platform:
+Windows - Delete %APPDATA%\Code and %USERPROFILE%\.vscode.
+macOS - Delete $HOME/Library/Application Support/Code and ~/.vscode.
+Linux - Delete $HOME/.config/Code and ~/.vscode.
 
 # suparuek Public Key$ cat /home/suparuek/.ssh/id_rsa.pub** 
 ```
