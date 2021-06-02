@@ -2,6 +2,8 @@
 
 ####################################################################################################################
 ################# change to root user before runing this shell script by using command " sudo su - "   #############
+################# Change FQDN Line: 37 'https://gitlabdocker.southeastasia.cloudapp.azure.com'         #############
+################# If Fail, remote the current config rm -rf /etc/gitlab then rerun this script         #############
 ####################################################################################################################
 
 # This command will create jenkins user, specify the bash shell, and assing sudo group 
