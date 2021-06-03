@@ -107,8 +107,11 @@ sudo yum-config-manager \
 
 **5-Start Docker.**
 > `sudo systemctl start docker`
+> 
 > `sudo systemctl status docker`
+> 
 > `sudo systemctl enable docker`
+> 
 > `sudo docker run hello-world`
 
 # หลังจากที่ติดตั้ง Docker Engine แล้วก็ ทำ Lab Terraform + Docker ได้แล้ว
