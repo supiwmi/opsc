@@ -73,6 +73,7 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io
 4-Verify that Docker Engine is installed correctly by running the hello-world image.
 > `sudo docker run hello-world`
 
+# Install Docker on CentOS
 **Install Docker CentOS/RHEL**
 
 **1-Uninstall old versions**
