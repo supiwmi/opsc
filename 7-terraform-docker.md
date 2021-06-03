@@ -2,7 +2,7 @@
 
 Add the HashiCorp GPG key.
 
-**Ubuntu/Debian**
+**1.1 Ubuntu/Debian**
 > `curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -`
 
 Add the official HashiCorp Linux repository.
@@ -11,7 +11,7 @@ Add the official HashiCorp Linux repository.
 Update and install.
 > `sudo apt-get update && sudo apt-get install terraform`
 
-**CentOS/RHEL**
+**1.2 CentOS/RHEL**
 
 Install yum-config-manager to manage your repositories.
 >`sudo yum install -y yum-utils`
@@ -22,7 +22,7 @@ Use yum-config-manager to add the official HashiCorp Linux repository.
 Install.
 > `sudo yum -y install terraform`
 
-**Amazon Linux**
+**1.3 Amazon Linux**
 
 Install yum-config-manager to manage your repositories.
 >`sudo yum install -y yum-utils`
@@ -33,11 +33,11 @@ Use yum-config-manager to add the official HashiCorp Linux repository.
 Install.
 > `sudo yum -y install terraform`
 
-**Verify the installation**
+**1.4 Verify the installation**
 > `terraform -help`
 > `terraform -help plan`
 
-**Enable tab completion**
+**1.5 Enable tab completion**
 > `terraform -install-autocomplete`
 
 
