@@ -146,6 +146,7 @@ resource "docker_container" "nginx" {
 
 Initialize the project, which downloads a plugin that allows Terraform to interact with Docker.
 > `terraform init`
+>
 > `terraform apply`
 
 Verify the existence of the NGINX container by visiting <mark>localhost:8000</mark> in your web browser or running docker ps to see the container.
